@@ -12,6 +12,8 @@ public class Main  {
         //db.createTable(connection,"employee");
        // db.insert_row(connection,"employee","momo","BF");
         db.read_data(connection,"employee");
+        db.update_name(connection,"employee","ismael","Ovoxo");
+        db.read_data(connection,"employee");
     }
 
 }
